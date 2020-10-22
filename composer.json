@@ -1,0 +1,32 @@
+{
+    "name": "ejetar/laravel-http-status-code-utils",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Guilherme Almeida Girardi",
+            "email": "guilhermeagirardi@gmail.com",
+            "homepage": "https://guilhermegirardi.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^7.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ejetar\\HttpStatusCodeUtils\\": "src/app"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ejetar\\HttpStatusCodeUtils\\Providers\\AppServiceProvider"
+            ]
+        }
+    }
+}
